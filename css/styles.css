@@ -1,0 +1,73 @@
+html {
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+  url(../img.close_enough.jpg) no-repeat center center fixed;
+  background-size: 100% auto;
+  background-repeat: repeat;
+  position:absolute;
+}
+
+body {
+  font-family: Helvetica, serif;
+}
+
+h1 {
+  text-align:left;
+  font-size:4.5em;
+  color:#660000;
+  text-shadow: 2px 2px #000000;
+}
+
+.container{
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:0%;
+	margin-bottom:0%;
+	padding-left:5%;
+	padding-right:5%;
+
+	
+	
+}
+
+img {
+   display: block;
+  margin-left:2%;
+  margin-right:2%;
+  margin-top: 3%;
+  width: 200px;
+  height: 215px;
+}
+
+.bio-p {
+  text-align: left;
+  margin-top: 3%;
+  margin-left:0%;
+  margin-right:0%;
+  line-height: 2em;
+  color: #FFF;
+}
+
+.bot-p {
+  text-align:left;
+ margin-top: 3%;
+  margin-left: 0%;
+  margin-right:0%;
+  line-height: 2em;
+  color: #FFF;
+}
+
+.skills{
+  color: #FFF;
+  list-style: disc;
+  text-align:left;
+  margin-top: 3%;
+  line-height: 1.5em;
+}
+
+.skills-list li {
+  display: inline-block;
+  text-align:left;
+  padding: 10px;
+  font-weight: bold;
+}
+
