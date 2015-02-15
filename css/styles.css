@@ -9,6 +9,8 @@ html {
 body {
   font-family: Helvetica, serif;
 }
+/*iPhone*/
+@media only screen (min-width ; 320px)
 
 h1 {
   text-align:left;
@@ -71,3 +73,259 @@ img {
   font-weight: bold;
 }
 
+/*Extra small devies, phones */
+@media only screen and (min-width : 480px)
+{
+h1 {
+  text-align:left;
+  font-size:4.5em;
+  color:#660000;
+  text-shadow: 2px 2px #000000;
+}
+
+.container{
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:0%;
+	margin-bottom:0%;
+	padding-left:5%;
+	padding-right:5%;
+
+	
+	
+}
+
+img {
+   display: block;
+  margin-left:2%;
+  margin-right:2%;
+  margin-top: 3%;
+  width: 200px;
+  height: 215px;
+}
+
+.bio-p {
+  text-align: left;
+  margin-top: 3%;
+  margin-left:0%;
+  margin-right:0%;
+  line-height: 2em;
+  color: #FFF;
+}
+
+.bot-p {
+  text-align:left;
+ margin-top: 3%;
+  margin-left: 0%;
+  margin-right:0%;
+  line-height: 2em;
+  color: #FFF;
+}
+
+.skills{
+  color: #FFF;
+  list-style: disc;
+  text-align:left;
+  margin-top: 3%;
+  line-height: 1.5em;
+}
+
+.skills-list li {
+  display: inline-block;
+  text-align:left;
+  padding: 10px;
+  font-weight: bold;
+}
+}
+/*tablets*/
+@media only screen and (min-width : 768px)
+{
+h1 {
+  text-align:left;
+  font-size:4.5em;
+  color:#660000;
+  text-shadow: 2px 2px #000000;
+}
+
+.container{
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:0%;
+	margin-bottom:0%;
+	padding-left:5%;
+	padding-right:5%;
+
+	
+	
+}
+
+img {
+   display: block;
+  margin-left:2%;
+  margin-right:2%;
+  margin-top: 3%;
+  width: 200px;
+  height: 215px;
+}
+
+.bio-p {
+  text-align: left;
+  margin-top: 3%;
+  margin-left:0%;
+  margin-right:0%;
+  line-height: 2em;
+  color: #FFF;
+}
+
+.bot-p {
+  text-align:left;
+ margin-top: 3%;
+  margin-left: 0%;
+  margin-right:0%;
+  line-height: 2em;
+  color: #FFF;
+}
+
+.skills{
+  color: #FFF;
+  list-style: disc;
+  text-align:left;
+  margin-top: 3%;
+  line-height: 1.5em;
+}
+
+.skills-list li {
+  display: inline-block;
+  text-align:left;
+  padding: 10px;
+  font-weight: bold;
+}
+}
+/* desktops */
+@media only screen and (min-width : 992px)
+{
+h1 {
+  text-align:left;
+  font-size:4.5em;
+  color:#660000;
+  text-shadow: 2px 2px #000000;
+}
+
+.container{
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:0%;
+	margin-bottom:0%;
+	padding-left:5%;
+	padding-right:5%;
+
+	
+	
+}
+
+img {
+   display: block;
+  margin-left:2%;
+  margin-right:2%;
+  margin-top: 3%;
+  width: 200px;
+  height: 215px;
+}
+
+.bio-p {
+  text-align: left;
+  margin-top: 3%;
+  margin-left:0%;
+  margin-right:0%;
+  line-height: 2em;
+  color: #FFF;
+}
+
+.bot-p {
+  text-align:left;
+ margin-top: 3%;
+  margin-left: 0%;
+  margin-right:0%;
+  line-height: 2em;
+  color: #FFF;
+}
+
+.skills{
+  color: #FFF;
+  list-style: disc;
+  text-align:left;
+  margin-top: 3%;
+  line-height: 1.5em;
+}
+
+.skills-list li {
+  display: inline-block;
+  text-align:left;
+  padding: 10px;
+  font-weight: bold;
+}
+}
+/*wide screens */
+@media only screen and (min-width : 1200px)
+{
+h1 {
+  text-align:left;
+  font-size:4.5em;
+  color:#660000;
+  text-shadow: 2px 2px #000000;
+}
+
+.container{
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:0%;
+	margin-bottom:0%;
+	padding-left:5%;
+	padding-right:5%;
+
+	
+	
+}
+
+img {
+   display: block;
+  margin-left:2%;
+  margin-right:2%;
+  margin-top: 3%;
+  width: 200px;
+  height: 215px;
+}
+
+.bio-p {
+  text-align: left;
+  margin-top: 3%;
+  margin-left:0%;
+  margin-right:0%;
+  line-height: 2em;
+  color: #FFF;
+}
+
+.bot-p {
+  text-align:left;
+ margin-top: 3%;
+  margin-left: 0%;
+  margin-right:0%;
+  line-height: 2em;
+  color: #FFF;
+}
+
+.skills{
+  color: #FFF;
+  list-style: disc;
+  text-align:left;
+  margin-top: 3%;
+  line-height: 1.5em;
+}
+
+.skills-list li {
+  display: inline-block;
+  text-align:left;
+  padding: 10px;
+  font-weight: bold;
+}
+}
