@@ -71,6 +71,25 @@ img {
   text-align:left;
   padding: 10px;
   font-weight: bold;
+
+.contact-form
+	{
+	margin: 0 auto;
+	position: relative;
+	width: 600px;
+	height: 400px;
+	padding: 10px;
+	}
+	
+	.contact-input
+	{
+	color: #FFF;
+	list-style: none;
+	text-align: center;
+	margin-top: 3%;
+	line-height: 2em;
+	}
+
 }
 
 /*Extra small devies, phones */
@@ -135,6 +154,25 @@ img {
   text-align:left;
   padding: 10px;
   font-weight: bold;
+
+.contact-form
+	{
+	margin: 0 auto;
+	position: relative;
+	width: 600px;
+	height: 400px;
+	padding: 10px;
+	}
+	
+	.contact-input
+	{
+	color: #FFF;
+	list-style: none;
+	text-align: center;
+	margin-top: 3%;
+	line-height: 2em;
+	}
+
 }
 }
 /*tablets*/
@@ -199,6 +237,25 @@ img {
   text-align:left;
   padding: 10px;
   font-weight: bold;
+
+.contact-form
+	{
+	margin: 0 auto;
+	position: relative;
+	width: 600px;
+	height: 400px;
+	padding: 10px;
+	}
+	
+	.contact-input
+	{
+	color: #FFF;
+	list-style: none;
+	text-align: center;
+	margin-top: 3%;
+	line-height: 2em;
+	}
+
 }
 }
 /* desktops */
@@ -263,6 +320,25 @@ img {
   text-align:left;
   padding: 10px;
   font-weight: bold;
+
+.contact-form
+	{
+	margin: 0 auto;
+	position: relative;
+	width: 600px;
+	height: 400px;
+	padding: 10px;
+	}
+	
+	.contact-input
+	{
+	color: #FFF;
+	list-style: none;
+	text-align: center;
+	margin-top: 3%;
+	line-height: 2em;
+	}
+
 }
 }
 /*wide screens */
@@ -327,5 +403,24 @@ img {
   text-align:left;
   padding: 10px;
   font-weight: bold;
+
+.contact-form
+	{
+	margin: 0 auto;
+	position: relative;
+	width: 600px;
+	height: 400px;
+	padding: 10px;
+	}
+	
+	.contact-input
+	{
+	color: #FFF;
+	list-style: none;
+	text-align: center;
+	margin-top: 3%;
+	line-height: 2em;
+	}
+
 }
 }
