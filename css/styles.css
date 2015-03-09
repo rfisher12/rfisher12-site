@@ -9,6 +9,15 @@ html {
 body {
   font-family: Helvetica, serif;
 }
+.navbar-inverse {
+    background-color: #0069AA;
+    }
+.body-container {
+  margin-top: 5%;
+}
+#form-main{
+  margin-bottom:10%;
+
 /*iPhone*/
 @media only screen (min-width ; 320px)
 
