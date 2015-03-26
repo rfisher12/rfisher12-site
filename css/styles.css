@@ -18,6 +18,26 @@ body {
 #form-main{
   margin-bottom:10%;
 
+
+.toggle_demo {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  height: 300px;
+  width: auto;
+  background-color: #fff;
+  clear: both;
+}
+
+.demo {
+  background-color: #0D2B21;
+  width: 200px;
+  height: 100px;
+}
+
+
+
 /*iPhone*/
 @media only screen (min-width ; 320px)
 
