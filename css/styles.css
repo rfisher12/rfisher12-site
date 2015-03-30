@@ -19,21 +19,98 @@ body {
   margin-bottom:10%;
 
 
-.toggle_demo {
-  display: block;
-  position: relative;
-  margin: 0 auto;
-  text-align: center;
-  height: 300px;
-  width: auto;
-  background-color: #fff;
-  clear: both;
+#form-main{
+   width:100%;
+   padding: 0px;
+ }
+
+ #form-div {
+   background-color:rgba(192,192,192,0.4);
+   padding-left:35px;
+   padding-right:35px;
+   padding-top:35px;
+   padding-bottom:50px;
+   width:250px;
+   float: left;
+   left: 50%;
+   position:relative;
+   margin-top:20px;
+   margin-left: -175px;
+ }
+
+ .contactinfo-input {
+   color:black;
+   font-family: Helvetica, serif;
+   font-weight:500;
+   font-size: 19px;
+   line-height: 22px;
+   background-color:white;
+   padding: 13px 13px 13px 13px;
+   margin-bottom: 10px;
+   width:100%;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -ms-box-sizing: border-box;
+   box-sizing: border-box;
+ }
+ .contactinfo-input:focus{
+    background: #fff;
+    box-shadow: 0;
+    border: 3px solid #E51C33;
+    color: #E1132B;
+    outline: none;
+    padding: 13px 13px 13px 13px;
+  }
+  .focused{
+    color:#30aed6;
+    border:#30aed6 solid 3px;
+  }
+ textarea {
+     width: 100%;
+     height: 100px;
+     line-height: 150%;
+     resize:vertical;
+ }
+   input:hover, textarea:hover,
+   input:focus, textarea:focus {
+     background-color:white;
+   }
+ #button{
+   font-family: Helvetica, serif;
+   float:left;
+   width: 100%;
+   border: #fbfbfb solid 4px;
+   cursor:pointer;
+   background-color: #E21D27;
+   color:white;
+   font-size:14px;
+   padding-top:12px;
+   padding-bottom:12px;
+ }
+ #button:hover{
+  background-color: rgba(0,0,0,0);
+  color: #000000;
 }
 
-.demo {
-  background-color: #0D2B21;
-  width: 200px;
-  height: 100px;
+.submit:hover {
+  color: #0A82D2;
+}
+
+.ease {
+  width: 0px;
+  height: 74px;
+  background-color: #FFFFFF;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  -ms-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:blue;
+
 }
 
 

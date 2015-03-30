@@ -1,96 +1,73 @@
- <!DOCTYPE html>
 <html>
-  <head>
-    <title>About Rebecca Thompson</title>
-    <link href="css/styles.css" type="text/css" rel="stylesheet" />
-  </head>
-  <body>
-    <div class="container">
-
-	
-		 
-		<meta name="description" content="This page was set up to give some general information for future employers to be able to access."/>
-		  
-
-<body style="transition: -webkit-transform 0.8s ease; -webkit-transition: -webkit-transform 0.8s ease;"">
+	<head>
+		<meta name="title" content="About me."/>
+		<meta name=“author” content=“Rebecca Thompson”/>
+		<meta name=“description” content=“Gives basic information about myself”/>
+		<meta name= “keywords” content=“resume, info, I.T, HTML, python, Java”/>
 		
-			<nav role="navigation" class="navbar navbar-default">
-		
-				<div class="navbar-header">
-					<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a href="#" class="navbar-brand">Rebecca Thompson</a>
-				</div>
-			
-				<div id="navbarCollapse" class="collapse navbar-collapse">
-					<ul class="nav navbar-nav">
-						
-						<li><a href="#ContactMe">Contact Me</a></li>
-					</ul>
+		<link href="css/styles.css" type="text/css" rel="stylesheet" />
+	</head>
+		<body>
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div id="navbar" class="collapse navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#aboutme">About Me</a></li>
+							<li><a href="#contactme">Contact</a></li>
+						</ul>
+					</div>
 				</div>
 			</nav>
+		<div class = "container">
+			<div class="aboutme" id="aboutme">
+			<header1> About me. </header1>
+			<p class="paragraph1">My name is Rebecca Thompson. I am a Junior at University of Toledo in the Bachelors of IT. I love spending time with my kids and hanging out with friends. 
 
-
-
-
-<h1>About Me</h1>
-		 
-		  <p class="bio-p">Hi. My name is Rebecca Thompson and I'm a Information Technology Student at University of Toledo.
-		  I work in I.T. for a Logistics company in Portage, Ohio.
-          I enjoy/skills </p>
-		  <ul class="skills">
-			<li> I enjoy looking through the internet</li>
-			<li>I have basic skills in Python, Java, and HTML</li>
-			<li>I enjoy spending time with family</li>
+			I have experience in </p>
+			<ul class = "skills">
+				<li> Python</li>
+				<li> Java </li>
+				<li> Working with electrical and hardware </li>
+				
+				
 			
-		  </ul>
-		  <p class="bot-p">Aside from going to school and my interests in computers, I'm also a full time mom to two kids and work full time. I enjoy gaming with my friends or just hanging out. I consider myself a pretty easy going person and easy to get along with. </p>
 
-    <meta name="author" content="Rebecca Thompson"/>
-
-		<div class="contactinfo-form">
-       
-
-<h2> Contact Me </h2>
-			<form class="contact-form" id="form">
-			<a name="ContactMe"></a>
-				<fieldset>
-					<div class="contact-input">
-						<label for="name"> Name </label>
-						<input id="name" type="text" placeholder="Name">
+			"Be humble, be hungry, and always be the hardest worker in the room. -The Rock"</p>
+		</div>
+			<div class="contactme" id="contactme">
+				<div class="contactinfo-form">
+				<div id="form-main">
+					<div id="form-div">
+						<form class="contactinfo-form" id="form">
+							<p class="name">
+								<input name="name" type="text" class="contactinfo-input" placeholder="Name" id="name" />
+							</p>
+							<p class="email">
+								<input name="email" type="text" class="contactinfo-input" id="email" placeholder="Email" />
+							</p>
+							<p class="text">
+								<textarea name="text" class="contactinfo-input" id="extra" placeholder="Additional Info"></textarea>
+							</p>
+							<div class="submit">
+								<input type="submit" value="Submit" id="button"/>
+								<div class="ease"></div>
+							</div>
+						</form>
 					</div>
-					
-					<div class="contact-input">
-						<label for="email"> Email </label>
-						<input id="email" type="text" placeholder="Email">
-					</div>
-					
-					<div class="contact-input">
-						<label for="comment"> Comment </label>
-						<textarea id="text" placeholder="Comment"></textarea>
-					</div>
-					
-					<div class="contact-button">
-						<input type="submit" value="SEND" id="button-blue" />
-					</div>
-				</fieldset>
-			</form>
+				</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  	<script src="js/testfunction.js"></script>
+		</div>
+	</body>
+</html>
 
-
-          </div>
-        </div>
-
-
-<div class="toggle_demo">
-          <button class="btn btn-default" onclick="toggle('demo_div');">Toggle</button>
-          <div id="demo_div">
-            <button class="btn btn-default demo"></button>
-          </div>
-    </div>
-  <script src="js/functions.js"></script>
- <body> 
-</html> 
