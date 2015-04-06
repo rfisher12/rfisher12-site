@@ -7,7 +7,9 @@ html {
 }
 
 body {
+  body {
   font-family: Helvetica, serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .navbar-inverse {
     background-color: #0069AA;
@@ -530,3 +532,4 @@ img {
 
 }
 }
+
