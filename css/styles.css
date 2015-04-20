@@ -1,9 +1,7 @@
 html {
   background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
-  url(../img.close_enough.jpg) no-repeat center center fixed;
-  background-size: 100% auto;
-  background-repeat: repeat;
-  position:absolute;
+background-repeat: repeat;
+  
 }
 
 body {
@@ -93,11 +91,9 @@ body {
   background-color: rgba(0,0,0,0);
   color: #000000;
 }
-
 .submit:hover {
   color: #0A82D2;
 }
-
 .ease {
   width: 0px;
   height: 74px;
@@ -108,15 +104,10 @@ body {
   -ms-transition: .3s ease;
   transition: .3s ease;
 }
-
 .submit:hover .ease{
   width:100%;
   background-color:blue;
-
 }
-
-
-
 /*iPhone*/
 @media only screen (min-width ; 320px)
 
@@ -532,4 +523,5 @@ img {
 
 }
 }
+
 
