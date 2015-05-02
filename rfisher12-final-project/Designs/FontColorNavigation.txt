@@ -1,0 +1,16 @@
+Color:
+	-I chose colors that are neutral and pleasing to the eye.
+
+#E0EEEE
+#EEE8CD
+#528B8B
+#FFFAF0
+
+Font:
+
+I will use Microsoft Sans Serif for my site. I think it's professional and modern. 
+
+Navigation:
+
+I want my page to be one page, with additional links to click on to access information.
+
